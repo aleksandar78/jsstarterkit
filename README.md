@@ -77,4 +77,17 @@ For automation NPM scripts will be used. Configuration is set inside package.jso
 
 ## Language Transpaling
 
+When TypeScript typesafety isn't required Babel is the most complete transpaler. 
+Configuration can be set with .babelrc file inside project folder.
+```javascript
+{
+    "presets": [
+        "latest"
+    ]
+}
+```
+
+## Bundling Code
+
+For JavaScript bundling Webpack bundler will be used.
 
