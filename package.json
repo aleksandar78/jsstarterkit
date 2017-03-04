@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "JavaScript development environment",
   "scripts": {
+    "prestart": "node builds/startMessage.js",
     "start": "node builds/server.js"
   },
   "author": "Aleksandar Pavlovic",
