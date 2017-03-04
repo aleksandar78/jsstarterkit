@@ -4,7 +4,9 @@
 
 Settings with editorconfig http://editorconfig.org/ 
 
-## Source Version Control - Git - Bitbucket
+## Source Version Control - Git - 
+
+Bitbucket / Github will be used as remote repositories.
 
 ## Package Manager - NPM
 
@@ -68,3 +70,7 @@ If subdomain is free in that moment return will be:
 ```shell
 your url is: https://jsstarterkit.localtunnel.me 
 ```
+
+## Automation Tools
+
+For automation NPM scripts will be used. Configuration is set inside package.json file.
