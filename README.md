@@ -52,3 +52,19 @@ app.listen(port, function(err) {
 });
 
 ```
+
+## Work In Progress Sharing - Localtunnel
+Localtunnel service will be installed via npm:
+```shell
+npm install -g localtunner
+```
+
+To use localtunel:
+```shell
+lt --port 3000 --subdomain jsstarterkit
+```
+
+If subdomain is free in that moment return will be:
+```shell
+your url is: https://jsstarterkit.localtunnel.me 
+```
