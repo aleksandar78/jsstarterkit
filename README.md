@@ -74,3 +74,7 @@ your url is: https://jsstarterkit.localtunnel.me
 ## Automation Tools
 
 For automation NPM scripts will be used. Configuration is set inside package.json file.
+
+## Language Transpaling
+
+
