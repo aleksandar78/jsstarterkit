@@ -4,7 +4,7 @@
 
 Settings with editorconfig http://editorconfig.org/ 
 
-## Source Version Control - Git - 
+## Source Version Control - Git
 
 Bitbucket / Github will be used as remote repositories.
 
@@ -94,3 +94,13 @@ For JavaScript bundling Webpack bundler will be used.
 ## Linter
 
 Linter for advance JavaScript code - ESLint
+
+
+## Automated Test
+
+For this project Mocha Framework will be used. Mocha does not habe assertion liberary builtin. 
+Chai is one of the most popular assertion library. 
+
+As testing helper JSDOM is used to simulate broser's DOM manipulation.
+
+Headless Browser is JSDOM library.
