@@ -91,3 +91,6 @@ Configuration can be set with .babelrc file inside project folder.
 
 For JavaScript bundling Webpack bundler will be used.
 
+## Linter
+
+Linter for advance JavaScript code - ESLint

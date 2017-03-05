@@ -5,10 +5,12 @@
   "scripts": {
     "prestart": "babel-node builds/startMessage.js",
     "open:src": "babel-node builds/server.js",
-    "start": "npm-run-all --parallel security-check open:src",
+    "start": "npm-run-all --parallel security-check open:src lint:watch",
     "security-check": "nsp check",
     "localtunnel": "lt --port 3000",
-    "share": "npm-run-all --parallel open:src localtunnel"
+    "share": "npm-run-all --parallel open:src localtunnel",
+    "lint": "esw webpack.config.* src builds --color",
+    "lint:watch": "npm run lint -- --watch"
   },
   "author": "Aleksandar Pavlovic",
   "license": "MIT",
