@@ -104,3 +104,7 @@ Chai is one of the most popular assertion library.
 As testing helper JSDOM is used to simulate broser's DOM manipulation.
 
 Headless Browser is JSDOM library.
+
+## Continuous Integration
+
+For this project Travis CI will be used. Travis provides cloud based service for unix-like platforms. 
